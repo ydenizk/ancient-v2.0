@@ -12,6 +12,7 @@ export const Hero = () => {
             src="/ban-2.jpg"
             alt="hero"
             fill
+            priority={true}
             className="object-cover absolute rounded-lg"
           />
         </div>
@@ -22,6 +23,7 @@ export const Hero = () => {
               src="/6.jpg"
               alt="hero"
               fill
+              priority={true}
               className="object-cover absolute rounded-lg"
             />
           </div>

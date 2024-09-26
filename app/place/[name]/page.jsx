@@ -63,7 +63,7 @@ async function PlacePage({ params: { name } }) {
             src={place.heroImageUrl}
             fill
             alt="pic"
-            className="object-cover rounded-md"
+            className="object-cover rounded-md absolute "
           />
         </div>
       </div>
